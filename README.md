@@ -79,16 +79,6 @@ Every finding was fixed on its server, preferring the vendor's own approach over
 
 All six exploitable attack paths were re-run from the Kali host after remediation and confirmed blocked (403, connection refused, or the vulnerable function removed).
 
-## Repository layout
-
-```
-.
-├── README.md
-├── report/
-│   └── Karam-Alhmoud_project_CC12.pdf   # full 77-page report: pentest + incident response
-└── images/                             # screenshots, if published separately
-```
-
 The single report covers three parts: system architecture, the red team engagement with all 12 findings, and the incident response writeup (timeline, ATT&CK and D3FEND mapping, remediation, replication proof).
 
 ## Walkthrough videos
